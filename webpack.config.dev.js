@@ -15,15 +15,23 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
-  ],
+  ],  
   module: {
     loaders: [
     // js
     {
-      test: /\.js$/,
-      loaders: ['babel'],
-      include: path.join(__dirname, 'client')
+      test: /\.jsx?$/,
+      loader: 'babel-loader',
+      exclude: /node_modules/,
+      query: {
+          presets: ['es2015']
+      }
     },
+    // {
+    //   test: /\.js$/,
+    //   loaders: ['babel'],
+    //   include: path.join(__dirname, 'client')
+    // },
     // CSS
     { 
       test: /\.styl$/, 
