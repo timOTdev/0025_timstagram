@@ -5,8 +5,10 @@ import Main from './components/Main';
 import Single from './components/Single';
 import PhotoGrid from './components/PhotoGrid';
 import { BrowserRouter, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './store';
 
-const Root = () => {
+const App = () => {
   return (
     <BrowserRouter>
       <div>
@@ -19,6 +21,8 @@ const Root = () => {
 }
 
 render (
-  <Root />,
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root')
 )
