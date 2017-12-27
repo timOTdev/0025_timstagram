@@ -11,7 +11,7 @@ import Single from './components/Single';
 import PhotoGrid from './components/PhotoGrid';
 
 // import react router deps
-import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import { Router, Route } from 'react-router';
 import { Provider } from 'react-redux';
 import store, { history } from './store';
 
@@ -19,7 +19,7 @@ const router = (
   <Provider store={store}>
     <Router history={history}>
       <Route path="/" component={Main}>
-        <IndexRoute component={PhotoGrid}></IndexRoute>
+        <Route component={PhotoGrid}></Route>
         <Route path="/view/:postId" component={Single}></Route>
       </Route>
     </Router>
