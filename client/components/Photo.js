@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CSSTransitionGroup } from 'react-transition-group';
 
-const Photo = (state, action) => {
-  const { post, i, comments } = state;
+const Photo = (state, dispatch) => {
+  const { post, i, comments, increment } = state;
   
   return (
     <figure className="grid-figure">
@@ -22,7 +22,7 @@ const Photo = (state, action) => {
           <figcaption>
             <p>{post.caption}</p>
             <div className="control-buttons">
-              <button className="likes">&hearts; {post.likes}</button>
+              <button onClick={() => state.increment(i)} className="likes">&hearts; {post.likes}</button>
               <Link className="button" to={`/view/${post.code}`}>
                 <span className="comment-count">
                   <span className="speech-bubble"></span>
