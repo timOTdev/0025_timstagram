@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import * as actionCreators from '../actions/actionCreators'
 
-import Photo from './Photo';
-import Comments from './Comments';
+import * as actionCreators from '../actions/actionCreators'
+import Photo from './Photo'
+import Comments from './Comments'
 
 const Single = (state) => {
   const { postId } = state.match.params;
@@ -30,4 +30,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators(actionCreators, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Single);
+export default connect(mapStateToProps, mapDispatchToProps)(Single)

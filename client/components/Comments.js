@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { connect } from 'react-redux'
 
 class Comments extends React.Component {
@@ -26,7 +26,7 @@ class Comments extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    const postId = this.props.match.params.postId;
+    const {postId} = this.props.match.params;
     const author = this.refs.author.value;
     const comment = this.refs.comment.value;
 
@@ -36,10 +36,11 @@ class Comments extends React.Component {
 
   render() {
     const postId = this.props.match.params.postId;
+    const comments= this.props.comments[postId]
 
     return (
       <div className="comments">
-        { Object.values(this.props.comments[postId]).map((comment,i) => this.renderComment(comment,i)) }
+      {(comments !== undefined) && Object.values(comments).map((comment,i) => this.renderComment(comment,i))} 
         <form onSubmit={this.handleSubmit} ref="commentForm" className="comment-form">
           <input type="text" ref="author" placeholder="author" />
           <input type="text" ref="comment" placeholder="comment" />
@@ -50,4 +51,4 @@ class Comments extends React.Component {
   }
 }
 
-export default Comments;
+export default Comments

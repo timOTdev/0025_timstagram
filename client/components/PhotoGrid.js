@@ -1,8 +1,8 @@
 import React from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import * as actionCreators from '../actions/actionCreators'
 
+import * as actionCreators from '../actions/actionCreators'
 import Photo from './Photo'
 
 class PhotoGrid extends React.Component {
@@ -25,5 +25,5 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators(actionCreators, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(PhotoGrid);
+export default connect(mapStateToProps, mapDispatchToProps)(PhotoGrid)
 

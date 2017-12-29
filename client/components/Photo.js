@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { CSSTransitionGroup } from 'react-transition-group';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { CSSTransitionGroup } from 'react-transition-group'
 
 const Photo = (state, dispatch) => {
   const { post, i, comments, increment } = state;
@@ -36,4 +36,4 @@ const Photo = (state, dispatch) => {
   );   
 }
 
-export default Photo;
+export default Photo

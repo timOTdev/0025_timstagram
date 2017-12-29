@@ -1,7 +1,7 @@
-import React from 'react';
-import { Route, Link } from 'react-router-dom';
-import PhotoGrid from './PhotoGrid';
-import Single from './Single';
+import React from 'react'
+import { Route, Link } from 'react-router-dom'
+import PhotoGrid from './PhotoGrid'
+import Single from './Single'
 
 const Main = () => {
   return (
@@ -9,10 +9,11 @@ const Main = () => {
       <h1>
         <Link to="/">Reduxstagram</Link>
       </h1>
+      
       <Route exact path="/" component={PhotoGrid} />
       <Route path="/view/:postId" component={Single} />
     </div>
   )
 }
 
-export default Main;
+export default Main
