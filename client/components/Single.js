@@ -7,14 +7,15 @@ import Photo from './Photo';
 import Comments from './Comments';
 
 const Single = (state) => {
-  const i = state.posts.findIndex((post) => post.code === state.match.params.postId)
+  const { postId } = state.match.params;
+  const i = state.posts.findIndex((post) => post.code === postId)
   const post = state.posts[i];
-  console.log(i, post);
-  console.log(state);
+  const postComments = state.comments[postId] || [];
+
   return (
     <div className="single-photo">
       <Photo i={i} post={post} {...state} />
-      <Comments />
+      <Comments {...state} />
     </div>
   )
 }

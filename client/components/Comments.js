@@ -1,11 +1,51 @@
 import React from 'react';
+import { connect } from 'react-redux'
 
-const Comments = () => {
-  return (
-    <div className="comment">
-      I'm the comments!!!
-    </div>
-  )
+class Comments extends React.Component {
+  constructor() {
+    super()
+    this.renderComment = this.renderComment.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
+  }
+  
+  renderComment(comment,i) {
+    if(comment.user !== undefined || comment.text !== undefined) {
+      return (
+        <div className="comment" key={i}>
+          <p>
+            <strong>{comment.user}</strong>
+            {comment.text}
+            <button className="remove-comment" onClick={() => this.props.removeComment(this.props.match.params.postId, i)}>&times;</button>
+          </p>
+        </div>
+      )
+    }
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+    const postId = this.props.match.params.postId;
+    const author = this.refs.author.value;
+    const comment = this.refs.comment.value;
+
+    this.props.addComment(postId, author, comment);
+    this.refs.commentForm.reset();
+  }
+
+  render() {
+    const postId = this.props.match.params.postId;
+
+    return (
+      <div className="comments">
+        { Object.values(this.props.comments[postId]).map((comment,i) => this.renderComment(comment,i)) }
+        <form onSubmit={this.handleSubmit} ref="commentForm" className="comment-form">
+          <input type="text" ref="author" placeholder="author" />
+          <input type="text" ref="comment" placeholder="comment" />
+          <input type="submit" hidden />
+        </form>
+      </div>
+    )
+  }
 }
 
 export default Comments;
