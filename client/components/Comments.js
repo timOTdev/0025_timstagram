@@ -9,13 +9,15 @@ class Comments extends React.Component {
   }
   
   renderComment(comment,i) {
+    const { postId } = this.props.match.params
     if(comment.user !== undefined || comment.text !== undefined) {
       return (
         <div className="comment" key={i}>
           <p>
             <strong>{comment.user}</strong>
             {comment.text}
-            <button className="remove-comment" onClick={() => this.props.removeComment(this.props.match.params.postId, i)}>&times;</button>
+            <button className="remove-comment" 
+                    onClick={() => this.props.removeComment(postId, i)}>&times;</button>
           </p>
         </div>
       )
