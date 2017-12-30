@@ -1,303 +1,132 @@
 const comments = {
-  "BAhvZrRwcfu":[
+  "BdOVAKGlVJrgr9nndPHuRbH3idmErXSpVN-7rE0":[
     {
-      "text":"Totally need to try this.",
-      "user": "heavymetaladam"
+      "text":"Did you sneak on the cruise?",
+      "user":"asilvercloud18"
+    },
+    {
+      "text":"Well, I'm not in the Bahamas. It's not for a lack of trying. Hahaha",
+      "user":"travel_dev"
     }
   ],
-  "BAcyDyQwcXX":[
+  "BcfHlQ6FKo-0OFxH8-l_Rum9BiWx2ijTBs7D8Q0":[
     {
-      "text":"Wes. WE should have lunch.",
-      "user": "jdaveknox"
+      "text":"how long you in town for",
+      "user":"drkooomar"
     },
     {
-      "text":"#adults",
-      "user": "jdaveknox"
-    },
-    {
-      "text":"@jdaveknox yes!",
-      "user": "wesbos"
-    },
-    {
-      "text":"😍 love Hamilton!",
-      "user": "willowtreemegs"
+      "text":"@drkooomar Probably awhile!",
+      "user":"travel_dev"
     }
   ],
-  "BAPIPRjQce9":[
+  "BcXfqfXl7QqHdvfxO7NNp_jcbnX858e0IzOAnY0":[
     {
-      "text":"Those are cute! They're like silver dollar pancakes.",
-      "user": "rrsimonsen"
+      "text":"I’m so sad I couldn’t be there!",
+      "user":"alexiea93"
     },
     {
-      "text":"I like baby pancakes but gluten free please!! I'll bring the coffee!! See you in 6 days!!!!!! 😝😛😝♥️",
-      "user": "terzisn"
+      "text":"@alexiea93 we were totally missing you guys, too many Jacks and Kings. Not enough Queens. Haha",
+      "user":"travel_dev"
     },
     {
-      "text":"... and apparently growing baby. 👀. Yum.",
-      "user": "henrihelvetica"
-    },
-    {
-      "text":"@wesbos 👍 my daughter is a pancake eating machine!",
-      "user": "brentoage"
-    },
-    {
-      "text":"Nice stove!",
-      "user": "haaps"
-    },
-    {
-      "text":"Genius bottle use! Do you make a single batch of batter or make a lot and freeze it?",
-      "user": "gobananna"
-    },
-    {
-      "text":"@gobananna I just made a batch and put in in a FIFO bottle. Keeps in the fridge for a few days.",
-      "user": "wesbos"
-    },
-    {
-      "text":"@haaps thanks! It's a Jenn air - so nice to cool with!",
-      "user": "wesbos"
-    },
-    {
-      "text":"Where would you go and for how long, if you had location freedom? - Greg 🌎",
-      "user": "world_greg"
+      "text":"@travel_dev haha hopefully someday I’ll be back",
+      "user":"alexiea93"
     }
   ],
-  "BAF_KY4wcRY":[
+  "BboyH-WlyVkszU4e2UQDxh7UW-_0cf-H8Rz-5o0":[
     {
-      "text":"Looking great Wes! I'd like to see the other side of the room too.",
-      "user": "axcdnt"
+      "text":"Tim you’re back in town??",
+      "user":"kam.salami"
     },
     {
-      "text":"I've never caught your podcast. Have one right? Btw - they don't have a Canary pillow? 😝",
-      "user": "henrihelvetica"
+      "text":"@travel_dev Hey Tim, you back in VA? Let's meetup sometime",
+      "user":"phoshov"
     },
     {
-      "text":"Great way to start the year.",
-      "user": "pmgllc"
+      "text":"@kam.salami yeaahh buddy!",
+      "user":"travel_dev"
     },
     {
-      "text":"Are there 4k monitors?",
-      "user": "alexbaumgertner"
+      "text":"@phoshov sounds good Viva, you free next week?",
+      "user":"travel_dev"
     },
     {
-      "text":"@axcdnt that is where I put all the junk. I'll have to clean that side too @henrihelvetica no podcast yet! @pmgllc ohh yeah! @alexbaumgertner yep - the main one is 4K - I'm loving it",
-      "user": "wesbos"
-    },
-    {
-      "text":"That chrome pillow. 😉",
-      "user": "imagesofthisandthat"
-    },
-    {
-      "text":"@wesbos is that the Dell 4k? The MacBook Pro powers it well? I also have a Retina™ / x1 setup as well. Very handy.",
-      "user": "henrihelvetica"
-    },
-    {
-      "text":"#minimalsetups",
-      "user": "wesbos"
+      "text":"@travel_dev Yeah man I'm free. Let me DM you my number",
+      "user":"phoshov"
     }
   ],
-  "_4jHytwcUA":[
+  "Bboxh5ZF22FYLBHQajL4jpTvPOyRNbJjNwGZuo0":[
     {
-      "text":"that is the sound of success!",
-      "user": "mdxprograms"
+      "text":"Can't recognize your house!",
+      "user":"nhuhbt09"
     }
   ],
-  "_zbaOlQcbn":[
+  "BZIvVJ1B_inT_YA6JDzNLnsxIU8NfUvOX7QxgU0":[
     {
-      "text":"Did she get to eat her letter?",
-      "user": "pathiebert"
+      "text":"How long do you plan to stay there? I'm pretty sure your Spanish is decent :)",
+      "user":"keovongphet_tony"
     },
     {
-      "text":"Nope @pathiebert! She has too much teeth now (8) so that would definitely be her first cavity 😉",
-      "user": "kaitbos"
+      "text":"@keovongphet_tony I'm stateside now! My Spanish is enough to get by. Lol",
+      "user":"travel_dev"
     }
   ],
-  "_rmvQfQce8":[
+  "BZCKjx1DrYJyqaHGMamxXBu64oLZsdAepPfPJ40":[
     {
-      "text":"A+",
-      "user": "mrjoedee"
+      "text":"Did you move there?",
+      "user":"nhuhbt09"
     },
     {
-      "text":"I recently went to a ramen place in Philly. So amazing!",
-      "user": "jrtashjian"
+      "text":"@nhuhbt09 hehe no. Vacation only.",
+      "user":"travel_dev"
     }
   ],
-  "_ep9kiQcVy":[
+  "BYtRcgmjVBSAjxQl8tX2aTVlBshXEgzDsJO5Ks0":[
     {
-      "text":"All bundled up!  Where ya goin?",
-      "user": "sophie_and_sadie"
+      "text":"Practice your photography skills cuz! Lol i think the views pretty nice but though your camera I don't really see ittttt lol nice shots anw",
+      "user":"nhi.mini93"
+    },
+    {
+      "text":"@nhi.mini93 I'm just lazy. Hahaha",
+      "user":"travel_dev"
     }
   ],
-  "_XpJcrwcSn":[
+  "BYoLrDrDiYfVxSBBl32pNdZWqNu6QdwWJ1inRI0":[
     {
-      "text":"Super congrats! That's wicked cool and looks great.",
-      "user": "pmgllc"
+      "text":"So jelly! Live it up Tim @travel_dev !",
+      "user":"tansavage"
     },
     {
-      "text":"real live paper magazine? woah haha. flex box is awesome though, could rage quit without it",
-      "user": "tjholowaychuk2"
-    },
-    {
-      "text":"@tjholowaychuk2 haha yes! Old school stylez!",
-      "user": "wesbos"
+      "text":"@tansavage Thanks Derrick!",
+      "user":"travel_dev"
     }
   ],
-  "_KnU7MwceA":[
-
-  ],
-  "_HMejJQcY5":[
+  "BYPILhODv9u94-JnhQ_2xK-z0mP0I1Z1HCc-G80":[
     {
-      "text":"👌",
-      "user": "t_volpe"
+      "text":"Oh you finally went up there! It's amazing right?",
+      "user":"die_lar.a"
     },
     {
-      "text":"Nice shot, mister!",
-      "user": "imagesofthisandthat"
+      "text":"@die_lar.a yea! Didn't think it was so steep! Great view!",
+      "user":"travel_dev"
     }
   ],
-  "_Fq2zmwcaz":[
+  "BX5SaGTjJ3XJF-Nlg3d-rGy9HjB55CPSrrLeD00":[
     {
-      "text":"😍",
-      "user": "melsariffodeen"
+      "text":"You're making pho? 😳😳",
+      "user":"nhubt09"
     },
     {
-      "text":"Very cool!",
-      "user": "ka11away"
+      "text":"@nhuhbt09 of course! It was pretty good.",
+      "user":"travel_dev"
     }
   ],
-  "_A2r0aQcfD":[
+  "BWz4NGnDjBjpBwNqkD2Pre0SpnrUud3tTrVkHo0":[
     {
-      "text":"Uhu!",
-      "user": "lucascaixeta"
+      "text":"That's really a gorgeous shot",
+      "user":"nguyen.elisabeth"
     }
   ],
-  "1rhFawccs":[
-    {
-      "text":"What's your lighting source?",
-      "user": "seth_mcleod"
-    },
-    {
-      "text":"And what are you using for XLR mix adapter? I found a big price jump between $55 range and $170 range.",
-      "user": "pmgllc"
-    },
-    {
-      "text":"I still need a desk boom for mine mic. Nice upgrades",
-      "user": "stolinski"
-    }
-  ],
-  "pjx-gQcVi":[
-
-  ],
-  "oTZ0zQcWt":[
-    {
-      "text":"Love the coat! Where's it from? Lol",
-      "user": "_lindersss"
-    }
-  ],
-  "mxKQoQcQh":[
-
-  ],
-  "hZh6IQcfN":[
-    {
-      "text":"What do we gotta do to get some :)? @wesbos",
-      "user": "jonasbad"
-    },
-    {
-      "text":"Might drop by today - real quick. Trade you an illegal pin for these? Lol. @wesbos",
-      "user": "henrihelvetica"
-    },
-    {
-      "text":"I'm with @jonasbad on this. What we gotta do? :D",
-      "user": "datamoshr"
-    },
-    {
-      "text":"@jonasbad @datamoshr I'll post them up on my blog soon!",
-      "user": "wesbos"
-    },
-    {
-      "text":"Want",
-      "user": "kamuelafranco"
-    },
-    {
-      "text":"want!",
-      "user": "josemanuelxyz"
-    },
-    {
-      "text":"#Top",
-      "user": "gabrielvieira.me"
-    }
-  ],
-  "fasqlQceO":[
-    {
-      "text":"Where's lux at? 💤?",
-      "user": "henrihelvetica"
-    },
-    {
-      "text":"Love this house during the holidays! And all other times of the year...",
-      "user": "danielleplas"
-    }
-  ],
-  "VBgtGQcSf":[
-    {
-      "text":"@dogsandbrew",
-      "user": "likea_bos"
-    },
-    {
-      "text":"Next on my list!",
-      "user": "tomwalsham"
-    },
-    {
-      "text":"Is that from collective arts ?",
-      "user": "trevorb_91"
-    }
-  ],
-  "FpTyHQcau":[
-    {
-      "text":"@kaitbos  that vest!!! 😍",
-      "user": "courtneyeveline"
-    },
-    {
-      "text":"I just love her! @kaitbos",
-      "user": "kalibrix"
-    },
-    {
-      "text":"@courtneyeveline I know! My friend gave it to her and I wanted a matching one but only Lux can pull it off. She's so fancy 😉",
-      "user": "kaitbos"
-    },
-    {
-      "text":"Char has that vest!!! Super cute!",
-      "user": "jennlensink"
-    },
-    {
-      "text":"You'll have to meet her soon @kalibrix!!",
-      "user": "kaitbos"
-    },
-    {
-      "text":"Haha @kaitbos so true, babies these days are sooo stylish. 😎",
-      "user": "courtneyeveline"
-    },
-    {
-      "text":"JavaScript 😄😆🙋",
-      "user": "lucascaixeta"
-    },
-    {
-      "text":"That hoodie is amazing! Where did you get it?",
-      "user": "br11x"
-    },
-    {
-      "text":"@br11x I did a teespring a few months ago - maybe I'll do another one soon",
-      "user": "wesbos"
-    }
-  ],
-  "B3eiIwcYV":[
-    {
-      "text":"If you get in the mood for authentic Italian pizza, check out @backspaceaustin - it's👌🏻",
-      "user": "dessie.ann"
-    },
-    {
-      "text":"😱 jealous",
-      "user": "jenngbrewer"
-    }
-  ]
 };
 
 export default comments
