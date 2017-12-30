@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div>
       <h1>
-        <Link to="/">Reduxstagram</Link>
+        <Link to="/">Timstagram</Link>
       </h1>
       
       <Route exact path="/" component={PhotoGrid} />
